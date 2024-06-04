@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './App.css';
 
 function App() {
-    const nome = "Ruan";
-    const sobrenome = "Blotta";
-
+    let name = "Ruan";
+    let num1 = 1;
+    let num2 = 1;
+    let sum = num1 + num2;
     return (
       <div>
-        <p>{nome} {sobrenome}</p>
+        <p>Meu nome é <span>{name}</span></p>
+        <p>A soma é {sum}</p>
       </div>
+      
     );
 }
 export default App;
