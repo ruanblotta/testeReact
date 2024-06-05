@@ -6,3 +6,17 @@ body {
 span {
   color: red;
 }
+
+.title {
+  font-size: 2em;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
